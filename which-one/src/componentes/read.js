@@ -73,31 +73,8 @@ export default function Read() {
                           </div>
                         <div className="down-content">
                           <span>{post.category_names}</span>
-                          <a href="post-details.html"><h4>{post.title}</h4></a>
-                          <ul className="post-info">
-                            <li><a href="#">Admin</a></li>
-                            <li><a href="#">May 12, 2020</a></li>
-                            <li><a href="#">10 Comments</a></li>
-                          </ul>
+                          <h4>{post.title}</h4>
                           <p>{post.description}</p>
-                              <div className="post-options">
-                                <div className="row">
-                                  <div className="col-6">
-                                    <ul className="post-tags">
-                                      <li><i className="fa fa-tags"></i></li>
-                                      <li><a href="#">Best Templates</a>,</li>
-                                      <li><a href="#">TemplateMo</a></li>
-                                    </ul>
-                                  </div>
-                                  <div className="col-6">
-                                    <ul className="post-share">
-                                      <li><i className="fa fa-share-alt"></i></li>
-                                      <li><a href="#">Facebook</a>,</li>
-                                      <li><a href="#"> Twitter</a></li>
-                                    </ul>
-                                  </div>
-                                </div>
-                              </div>
                             </div>
                           </div>
                       </div>

@@ -57,17 +57,6 @@ export default function Main() {
                       <a href={`/post/${id}`}>
                         <h4>{title}</h4>
                       </a>
-                      <ul className="post-info">
-                        <li>
-                          <a href="#">admin</a>
-                        </li>
-                        <li>
-                          <a href="#">0</a>
-                        </li>
-                        <li>
-                          <a href="#"> Comments</a>
-                        </li>
-                      </ul>
                     </div>
                   </div>
                 </section>

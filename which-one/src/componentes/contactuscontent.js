@@ -69,7 +69,7 @@ export default function Contactuscontent() {
                     <div className="content">
                       <ul>
                         <li>
-                          <h5>090-484-8080</h5>
+                          <h5>+2127-72-623256</h5>
                           <span>PHONE NUMBER</span>
                         </li>
                         <li>

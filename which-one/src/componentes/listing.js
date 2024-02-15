@@ -65,54 +65,13 @@ export default function Listing() {
                       </div>
                       <div className="down-content">
                         <span>{post.category_names}</span>
+                          <Link className="main-button" to={`/post/${post.id}`}>
                           <h4>{post.title}</h4>
-                        <ul className="post-info">
-                          <li>
-                            <a href="#">Admin</a>
-                          </li>
-                          <li>
-                            <a href="#">May 31, 2020</a>
-                          </li>
-                          <li>
-                            <a href="#">12 Comments</a>
-                          </li>
-                        </ul>
+                          </Link>
                         <p>
                           {post.description}{" "}
-                          <Link className="main-button" to={`/post/${post.id}`}>
-                            Read more
-                          </Link>
                         </p>
-                        <div className="post-options">
-                          <div className="row">
-                            <div className="col-6">
-                              <ul className="post-tags">
-                                <li>
-                                  <i className="fa fa-tags"></i>
-                                </li>
-                                <li>
-                                  <a href="#">Beauty</a>,
-                                </li>
-                                <li>
-                                  <a href="#">Nature</a>
-                                </li>
-                              </ul>
-                            </div>
-                            <div className="col-6">
-                              <ul className="post-share">
-                                <li>
-                                  <i className="fa fa-share-alt"></i>
-                                </li>
-                                <li>
-                                  <a href="#">Facebook</a>,
-                                </li>
-                                <li>
-                                  <a href="#"> Twitter</a>
-                                </li>
-                              </ul>
-                            </div>
-                          </div>
-                        </div>
+                        
                       </div>
                     </div>
                   </div>))}
